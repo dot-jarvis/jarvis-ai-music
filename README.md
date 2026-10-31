@@ -6,10 +6,6 @@ Official website: https://music.autosystems.tech
 
 This branch expands the initial v3 website with release listening guides, a documented production notebook, AI/editorial transparency, contact and reuse guidance, and a privacy notice. These changes are prepared for review; this branch does not itself deploy the website.
 
-## Operations
-
-See [the AI Music operations guide](docs/operations.md) for daily releases, live start/stop, Discord announcements, ownership, verification and failure handling. The guide documents operations performed by existing dedicated systems; this website repository does not implement those systems. Runtime records and credentials remain private.
-
 ## Files
 
 - `dist/index.html`: page markup and music links
@@ -23,6 +19,6 @@ YouTube players load only after selecting a track. The site does not provide liv
 
 English content is present in the HTML without JavaScript. Language selection replaces that content locally and saves only the language preference. No remote translation service, font request, analytics tracker, advertising code, cookie banner or account system is added. Production measurements describe the identified source master; they are not an independent listening review or a rights-clearance guarantee. Translations have not received professional native-language review.
 
-The website's existing Discord invitation was documented as time-limited (30 days from 2026-10-23); verify it before expiry. The current operations invitation is specified in the operations guide; its validity must be checked independently.
+The Discord invitation is time-limited (30 days from 2026-10-23); verify or replace it before expiry.
 
 No license is granted by this repository. No credentials, deployment identity, Git history or private configuration are included.
